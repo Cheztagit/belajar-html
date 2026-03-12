@@ -1,0 +1,67 @@
+.Navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 30px;
+    width: 900px;
+
+}
+.nav-menu a {
+    text-decoration: none;
+    margin: 0 10px;
+    color: black;
+}
+.nav-menu a:hover {
+    background-color: #9e9b9b
+}
+.nav-menu a:active {
+    background-color: rgb(100, 100, 100);
+    border-radius: 10px;
+}
+.nav-button a {
+    text-decoration: none;
+    color: black;
+    margin: 0px 10px;
+    border-radius: 20px;
+    padding: 8px 25px;
+    border: solid black 2px;
+}
+.nav-button a:hover {
+    background-color: #9e9b9b
+}
+.nav-button a:active {
+    background-color: rgb(100, 100, 100);
+    border-radius: 20px;
+}
+
+.Judul-atas {
+    max-width: 500px;
+    color: rgb(0, 0, 0);
+    margin: 0 auto;
+    padding: 10px;
+    background-color: aqua;
+    border: 2px solid black;
+    border-radius: 30px;
+    text-align: center;
+}
+.deskripsi-isi {
+    text-align: center;
+}
+body {
+    background-color: navajowhite;
+    font-family: poppins, arial;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+
+    
+}
+.Judul-atas {
+        font-size: 56px;
+    }
+.deskripsi-website {
+        font-size: 24px;
+    }
