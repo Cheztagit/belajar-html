@@ -15,6 +15,13 @@
     border-radius: 10px;
     text-align: center;
     font-weight: 700;
+    transition: transform 0.3, background-color 0.3s;
+    
+}
+.grid-item:hover {
+    background-color: #e63950;
+    transform: translateY(-8px);
+
 }
 .Navbar {
     position: sticky;
@@ -73,13 +80,16 @@
     text-align: center;
 }
 body {
-    background-color: navajowhite;
+    background-color: rgb(0, 20, 129);
     font-family: poppins, arial;
     max-width: 900px;
     margin: 0 auto;
     padding: 20px;
 
     
+}
+.kartu:hover {
+    transform: scale(1.2) translateY(-8px);
 }
 .Judul-atas {
         font-size: 56px;
@@ -99,6 +109,7 @@ body {
     font-weight: 700;
     font-size: 20px;
     max-width: 900px;
+    transition: 0.3s;
 }
 .badge {
     position:absolute;
