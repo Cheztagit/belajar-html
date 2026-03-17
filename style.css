@@ -1,0 +1,124 @@
+:root {
+    --aksen: rgb(43, 53, 187);
+    --radius: 20px;
+}
+.grid-latihan {
+    display: grid;
+    grid-template-columns: 240px 1fr 220px;
+    gap: 10px;
+    margin-top: 20px;
+}
+.grid-item {
+    background-color: #1a2d44;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: 700;
+    transition: transform 0.3, background-color 0.3s;
+    
+}
+.grid-item:hover {
+    background-color: #e63950;
+    transform: translateY(-8px);
+
+}
+.Navbar {
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 30px;
+    width: 900px;
+    z-index: 999;
+
+}
+.nav-menu a {
+    text-decoration: none;
+    margin: 0 10px;
+    color: black;
+}
+.nav-menu a:hover {
+    background-color: #9e9b9b
+}
+.nav-menu a:active {
+    background-color: rgb(100, 100, 100);
+    border-radius: 10px;
+}
+.nav-button a {
+    text-decoration: none;
+    color: black;
+    margin: 0px 10px;
+    border-radius: 20px;
+    padding: 8px 25px;
+    border: solid black 2px;
+}
+.nav-button a:hover {
+    background-color: #9e9b9b
+}
+.nav-button a:active {
+    background-color: rgb(100, 100, 100);
+    border-radius: 20px;
+}
+
+.Judul-atas {
+    max-width: 500px;
+    color: rgb(0, 0, 0);
+    margin: 0 auto;
+    padding: 10px;
+    background-color: var(--aksen);
+    border: 2px solid black;
+    border-radius: var(--radius);
+    text-align: center;
+}
+
+.deskripsi-isi {
+    text-align: center;
+}
+body {
+    background-color: rgba(1, 33, 100, 0.856);
+    font-family: poppins, arial;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+
+    
+}
+.kartu:hover {
+    transform: scale(1.2) translateY(-8px);
+}
+.Judul-atas {
+        font-size: 56px;
+    }
+.deskripsi-website {
+        font-size: 24px;
+    }
+.kartu {
+    position: relative;
+    width: auto;
+    height: 100px;
+    background-color: var(--aksen);
+    border-radius: 14px;
+    background-color: #1a2d44;
+    padding: 14px;
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+    max-width: 900px;
+    transition: 0.3s;
+}
+.badge {
+    position:absolute;
+    top: 8px;
+    right: 8px;
+    background-color: #e63950;
+    color: white;
+    padding: 2px 8px;
+    border-radius: 5px;
+    font-size: 12px;
+    font-weight: 700;
+}
